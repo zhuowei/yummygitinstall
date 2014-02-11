@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>You better do a yummy git install</title>
+</head>
+<body>
+<div id="prelude">Got CSC190 problems?</div>
+<h1>Well, you'd better do a <span style="font-family: monospace">yummy git install!</span></h1>
+<script>
+var problems = ["khed","Oq`whr","mhookd","QEO","BRB08/","oqnfq`llhmf","dmfhmddqhmf","uhqst`k\u001fl`bghmd","qdk`shnmrgho","Enrsdq","88"];
+function dance() {
+var a = "";
+var b = problems[Math.floor(Math.random() * problems.length)];
+for (var i = 0; i < b.length; i++) {
+    a += String.fromCharCode(b.charCodeAt(i) + 1);
+}
+document.getElementById("prelude").textContent = "Got " + a + " problems?";
+}
+
+setInterval(dance, 50);
+</script>
+</body>
+</html>
